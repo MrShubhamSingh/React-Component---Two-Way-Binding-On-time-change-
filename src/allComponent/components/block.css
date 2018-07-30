@@ -1,0 +1,36 @@
+.block{
+    border:1px solid rgb(129, 128, 128);
+    margin: 16px auto;
+    width:50%;
+    box-shadow: 5px 6px 5px rgb(255, 169, 89); 
+    padding : 16px;
+    text-align: center;
+    color: rgb(255, 166, 110);
+  }
+
+  @media(min-width:500px){
+    .block{
+      width:450px;
+    }
+  }
+
+  .block button{
+    background-color:cyan;
+    font:inherit;
+    font-weight:bold;
+    padding : 16px;
+    cursor:pointer;
+    box-shadow: 5px 6px 5px rgb(224, 201, 201);
+    color:black;  
+    margin: 16px auto;
+    width:50%;        
+}
+
+.block button.Red{
+background-color: rgb(212, 125, 91);
+}
+
+.block button.Red:hover{
+background-color: rgb(243, 140, 81);
+color: black;
+} 

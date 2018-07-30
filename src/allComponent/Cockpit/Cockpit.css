@@ -1,0 +1,36 @@
+.fontClr{
+    color:rgb(236, 161, 91);
+    }
+    
+    .bold{
+      font-weight:bold;
+    }
+    .normal{
+      font-weight:normal;
+    }
+    
+    .Cockpit button{
+           background-color:cyan;
+           font:inherit;
+           font-weight:bold;
+           padding : 16px;
+           cursor:pointer;
+           box-shadow: 5px 6px 5px rgb(224, 201, 201);
+           color:black;  
+           margin: 16px auto;
+           width:50%;        
+    }
+    
+    .Cockpit button:hover{
+      background-color: rgb(180, 224, 109);
+      color:black;
+    }
+    
+    .Cockpit button.Red{
+       background-color: rgb(212, 125, 91);
+    }
+    
+    .Cockpit button.Red:hover{
+      background-color: rgb(243, 140, 81);
+      color: black;
+    }
